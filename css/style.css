@@ -1,0 +1,400 @@
+@charset "UTF-8";
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/* 以下の内容を追加します　*/
+.section-title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 30px 0;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.wrap {
+  width: 80%;
+  margin: 0 auto 50px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.between {
+  justify-content: space-between;
+}
+
+.around {
+  justify-content: space-around;
+}
+
+header {
+  height: 70px;
+  background: #000;
+}
+
+.header-logo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #f2f2f2;
+  line-height: 65px;
+}
+
+.header-nav li {
+  display: inline-block;
+  margin-right: 35px;
+  font-size: 16px;
+}
+
+.header-nav a {
+  color: #f2f2f2;
+}
+
+#eyecatch {
+  height: 600px;
+  background: url(../img/eyecatch.jpg) no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+#eyecatch p {
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+}
+
+.white {
+  background-color: #fff;
+  position: absolute;
+  top: 91.5%;
+  right: 9%;
+  padding-bottom: 20px;
+  padding-right: 150px;
+}
+
+.white h2 {
+  font-weight: normal;
+}
+
+.black {
+  background-color: #000;
+  position: absolute;
+  top: 91.5%;
+  right: 0;
+  padding: 20px 40px;
+}
+
+.black h2 {
+  color: #fff;
+  font-weight: normal;
+}
+
+#mission {
+  background-color: #000;
+  height: 400px;
+}
+
+#mission img {
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  top: 130%;
+  right: 3%;
+  padding-bottom: 50px;
+  z-index: 1;
+}
+
+#mission p {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 150px 0 20px 200px;
+}
+
+#mission h2 {
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  padding: 0 330px 40px 200px;
+  z-index: 2;
+}
+
+.link {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #000;
+  background-color: #fff;
+  border: 10px;
+  margin-left: 200px;
+  position: absolute;
+}
+
+.item {
+  background-color: #cccccc;
+  height: 700px;
+  margin-top: 70px;
+}
+
+.item p {
+  padding: 20px 45%;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.item img {
+  height: 450px;
+  width: 630px;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.card {
+  width: 300px;
+  padding: 60px 60px 80px 60px;
+  color: #000;
+  background-color: #fff;
+  position: absolute;
+  top: 227%;
+  left: 22%;
+  z-index: 2;
+}
+
+.title,
+.text {
+  margin: 0;
+}
+
+.text {
+  padding: 10px 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.button {
+  padding: 5px 20px;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px #353333 solid;
+  border-radius: 2px;
+  position: absolute;
+}
+
+.item1 {
+  height: 550px;
+  background-color: #cccccc;
+}
+
+.item1 img {
+  height: 500px;
+  width: 650px;
+  position: absolute;
+  z-index: 1;
+}
+
+.card2 {
+  height: 150px;
+  width: 300px;
+  padding: 60px 60px 80px 60px;
+  color: #000;
+  background-color: #fff;
+  position: absolute;
+  top: 312%;
+  right: 23%;
+  z-index: 2;
+}
+
+.item2 {
+  height: 500px;
+}
+
+.item2 img {
+  height: 300px;
+  width: 700px;
+}
